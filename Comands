@@ -1,0 +1,2 @@
+grep "<loc>" sitemap_girls-clothing-sweatshirts_0.xml >>test.csv
+awk '/<loc>/{getline;getline; print}' sitemap_girls-clothing-sweatshirts_0.xml >test3.csv
